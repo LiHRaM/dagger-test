@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "dagger run node --loader ts-node/esm build.mts"
+  },
+  "devDependencies": {
+    "@dagger.io/dagger": "^0.9.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
