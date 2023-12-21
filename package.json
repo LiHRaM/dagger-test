@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "dagger run node --loader ts-node/esm build.mts"
+    "start": "dagger run node build.mjs"
   },
   "devDependencies": {
     "@dagger.io/dagger": "^0.9.4"
