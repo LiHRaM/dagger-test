@@ -20,6 +20,9 @@ connect(
       .withExec(["test"])
       .sync()
 
+      await runner
+      .withExec(["build"])
+      .sync()
   },
   { LogOutput: process.stderr }
 )
